@@ -24,57 +24,67 @@ const Sidebar = () => {
         <div className="center">
        
          <ul>
+            <div className="title">MAIN</div>
             <li>
-            {<DashboardIcon/>}
+            {<DashboardIcon className='icon'/>}
                 <span>Dashboard</span>
             </li>
+            <div className="title">LISTS</div>
             <li>
-                <PersonOutlineIcon/>
+                <PersonOutlineIcon className='icon'/>
                 <span>Users</span>
             </li>
             <li>
-                <Inventory2Icon/>
+                <Inventory2Icon className='icon'/>
                 <span>Products</span>
             </li>
             <li>
-                <LuggageIcon/>
+                <LuggageIcon className='icon'/>
                 <span>Orders</span>
             </li>
             <li>
-                < LocalShippingIcon/>
+                < LocalShippingIcon className='icon'/>
                 <span>Delivery</span>
             </li>
+
+            <div className="title">USEFUL</div>
             <li>
-                <AssessmentIcon/>
+                <AssessmentIcon className='icon'/>
                 <span>Stats</span>
             </li>
             <li>
-                <NotificationsNoneIcon/>
+                <NotificationsNoneIcon className='icon'/>
                 <span>Notifications</span>
             </li>
+            <div className="title">SERVICE</div>
             <li>
-                <SettingsSystemDaydreamIcon/>
+                <SettingsSystemDaydreamIcon className='icon'/>
                 <span>System health</span>
             </li>
             <li>
-                <PsychologyIcon/>
+                <PsychologyIcon className='icon'/>
                 <span>Logs</span>
             </li>
             <li>
-                <SettingsApplicationsIcon/>
+                <SettingsApplicationsIcon className='icon'/>
                 <span>Settings</span>
             </li>
+            <div className="title">USER</div>
             <li>
-                <AccountCircleIcon/>
+                <AccountCircleIcon className='icon'/>
                 <span>Profile</span>
             </li>
             <li>
-                <ExitToAppIcon/>
+                <ExitToAppIcon className='icon'/>
                 <span>Logout</span>
             </li>
          </ul>
         </div>
-        <div className="bottom">color options</div>
+        <div className="bottom">
+            <div className="colorOPtion"></div>
+            <div className="colorOPtion"></div>
+            
+        </div>
         
     </div>
   )
