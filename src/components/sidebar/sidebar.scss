@@ -2,15 +2,23 @@
    
     flex:1;
     .top{
+        padding-top: 0px;
         height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
 
         .logo{
-            font-size: 20px;
+            
             font-weight: bold;
             color: #6439ff;
+            background-color: #333;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            .patsitech{
+                border-radius: 50%;
+            }
         }
     }
     hr{

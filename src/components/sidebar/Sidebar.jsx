@@ -12,12 +12,15 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import logo from "./logo.png"
 const Sidebar = () => {
   return (
 
     <div className='sidebar'>
         <div className="top">
-            <span className="logo">Patrick Admin</span>
+            <span className="logo">
+                <img src={logo} height="50px" width="50px" className='patsitech'/>
+            </span>
         </div>
 
         <hr />
